@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-head">
+      <div class="eyebrow">Marché Numérique</div>
+      <h1>Nos produits du moment</h1>
+      <p>Électronique • Vêtements • Livres • Saveurs congolaises</p>
+    </div>
+
+    <div class="grid">
+      <article class="card">
+        <div class="card__media">
+          <span class="badge badge--stock">En stock</span>
+          <button class="fav-btn" aria-label="Ajouter aux favoris">♡</button>
+          <img
+            src="photo-1511707171634-5f897ff02aa9.jpg"
+            alt="Smartphone dernière génération"
+          />
+        </div>
+        <div class="card__body">
+          <span class="card__cat">Électronique</span>
+          <h3 class="card__name">Smartphone Nova X12</h3>
+          <p class="card__desc">
+            Écran AMOLED 6.5", triple caméra 108MP, batterie longue durée.
+          </p>
+          <div class="stars" aria-label="Note 4.5 sur 5">
+            ★★★★<span class="muted">★</span><span class="count">(128)</span>
+          </div>
+          <div class="price-row">
+            <span class="price">185 000 <small>FCFA</small></span>
+          </div>
+          <div class="actions">
+            <button class="btn btn--primary">Ajouter au panier</button>
+            <button class="btn btn--ghost" aria-label="Favoris">♥</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__media">
+          <span class="badge badge--promo">Promo -20%</span>
+          <button class="fav-btn" aria-label="Ajouter aux favoris">♡</button>
+          <img
+            src="photo-1490481651871-ab68de25d43d.jpg"
+            alt="Robe wax colorée"
+          />
+        </div>
+        <div class="card__body">
+          <span class="card__cat">Vêtements</span>
+          <h3 class="card__name">Robe Wax Kitenge</h3>
+          <p class="card__desc">
+            Tissu wax authentique, coupe ajustée, disponible en plusieurs
+            tailles.
+          </p>
+          <div class="stars" aria-label="Note 5 sur 5">
+            ★★★★★<span class="count">(64)</span>
+          </div>
+          <div class="price-row">
+            <span class="price">24 000 <small>FCFA</small></span>
+            <span class="price-old">30 000 FCFA</span>
+          </div>
+          <div class="actions">
+            <button class="btn btn--primary">Ajouter au panier</button>
+            <button class="btn btn--ghost" aria-label="Favoris">♥</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__media">
+          <span class="badge badge--new">EN STOCK</span>
+          <button class="fav-btn" aria-label="Ajouter aux favoris">♡</button>
+          <img src="photo-1544947950-fa07a98d237f.jpg" alt="Livre roman" />
+        </div>
+        <div class="card__body">
+          <span class="card__cat">Livres</span>
+          <h3 class="card__name">Les Chants de la Savane</h3>
+          <p class="card__desc">
+            Roman d'un jeune auteur congolais, récit sur la mémoire et la ville.
+          </p>
+          <div class="stars" aria-label="Note 4 sur 5">
+            ★★★★<span class="muted">★</span><span class="count">(37)</span>
+          </div>
+          <div class="price-row">
+            <span class="price">7 500 <small>FCFA</small></span>
+          </div>
+          <div class="actions">
+            <button class="btn btn--primary">Ajouter au panier</button>
+            <button class="btn btn--ghost" aria-label="Favoris">♥</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card is-disabled">
+        <div class="card__media">
+          <span class="badge badge--stock" style="background: var(--ink-soft)"
+            >Rupture</span
+          >
+          <button class="fav-btn" aria-label="Ajouter aux favoris">♡</button>
+          <img
+            src="photo-1604329760661-e71dc83f8f26.jpg"
+            alt="Plat congolais poulet moambe"
+          />
+        </div>
+        <div class="card__body">
+          <span class="card__cat">Nourriture congolaise</span>
+          <h3 class="card__name">Poulet Moambe traiteur</h3>
+          <p class="card__desc">
+            Sauce moambe maison, riz et bananes plantain, portion familiale.
+          </p>
+          <div class="stars" aria-label="Note 4.5 sur 5">
+            ★★★★<span class="muted">★</span><span class="count">(91)</span>
+          </div>
+          <div class="price-row">
+            <span class="price">12 000 <small>FCFA</small></span>
+          </div>
+          <div class="actions">
+            <button class="btn btn--primary" disabled>Indisponible</button>
+            <button class="btn btn--ghost" aria-label="Favoris">♥</button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </body>
+</html>
